@@ -11,19 +11,21 @@
   font-weight: 600;
 }
 
-.screen-header__icons__dots {
-  display: inline-flex;
-  margin-bottom: 15px;
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-}
-
 .screen-header__icons span {
   margin-left: 25px;
 }
 
+.screen-header__icons span:last-child {
+  display: flex;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
 @keyframes rotateCog {
   from {
     transform: none;
