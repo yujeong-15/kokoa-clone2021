@@ -18,13 +18,13 @@
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
 
 .friends-screen__channel {
-  margin-top: 25px;
+  margin-top: 10px;
   border-top: var(--main-border);
   padding-top: 15px;
   color: rgba(0, 0, 0, 0.3);
@@ -40,6 +40,7 @@
   }
 }
 
+/*
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
@@ -53,3 +54,5 @@
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
 }
+
+*/
