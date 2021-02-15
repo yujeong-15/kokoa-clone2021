@@ -1,0 +1,74 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 15px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontla-space);
+  height: 100vh;
+}
+
+.friends-screen__Channel {
+  margin-top: 25px;
+  border-top: var(--border-main);
+  border-bottom: var(--border-main);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel-header span,
+.friends-screen__friend-header span {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+.friends-screen__friend-header {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes hidesplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background: linear-gradient(#107a92, rgb(60, 152, 167), #a0c8c0, #c2ded7);
+  position: absolute;
+  height: 200vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  animation: hidesplashscreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+#splash-screen i {
+  position: fixed;
+  top: 250px;
+  color: white;
+}
