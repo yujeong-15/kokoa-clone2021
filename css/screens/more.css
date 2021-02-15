@@ -51,7 +51,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin: 20px 40px;
+  margin: 20px auto;
   box-shadow: 20px 20px 20px grey;
   border-radius: 50px;
   background-color: #c2ded7;
