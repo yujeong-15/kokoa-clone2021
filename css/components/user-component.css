@@ -1,0 +1,78 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  border-radius: 30px;
+  height: 70px;
+  margin-right: 20px;
+  border: 5px solid #107a92;
+}
+
+.user-component__tilte {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+
+.user-component__avatar-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar-sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  border: 4px solid #107a92;
+}
+
+.user-component__tilte--not-bold {
+  font-weight: 700;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.music {
+  border: solid 3px #c2ded7;
+  border-radius: 30px;
+  padding: 10px;
+}
+.music span {
+  display: block;
+}
+.music i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #107a92;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.music-element {
+  display: flex;
+  align-items: center;
+}
+.music-element span {
+  color: var(--color);
+}
