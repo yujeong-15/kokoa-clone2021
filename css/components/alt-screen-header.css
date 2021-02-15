@@ -35,3 +35,10 @@
 .alt-header__column:last-child i {
   margin-left: 20px;
 }
+
+.message__bubble__star-icon i:first-child {
+  color: tomato;
+}
+.message__bubble__star-icon i:last-child {
+  color: var(--yellow);
+}
