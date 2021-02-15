@@ -2,7 +2,7 @@
   margin-top: 35px;
 }
 .more-screen {
-  height: 300vh;
+  height: 150vh;
 }
 .more-suggestions {
   margin: 20px 0px;
@@ -50,10 +50,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0px;
+
+  margin: 20px 40px;
+  box-shadow: 20px 20px 20px grey;
+  border-radius: 50px;
+  background-color: #c2ded7;
+  width: 400px;
 }
 .ani-ost__music {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -74,7 +79,7 @@
 .ani-ost__text span:last-child {
   font-size: 25px;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 .ani-ost__text span {
   display: block;
@@ -104,7 +109,8 @@
 }
 
 .ani-ost-recode i {
-  padding: 10px 30px;
+  padding: 10px 10px;
+  margin: 20px;
 }
 
 @keyframes recode {
